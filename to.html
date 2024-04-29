@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome To-Do List</title>
+    <link rel="stylesheet" href="to.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div>
+            <h2>Your To-Do List</h2>
+            <ul id="todo-items">
+                </ul>
+            <form id="add-todo-form">
+                <label for="new-todo">New To-Do:</label>
+                <input type="text" id="new-todo" name="new-todo" required>
+                <button type="submit">Add Task</button>
+            </form>
+            <form id="add-note-form">
+                <label for="new-note">Add Note (Optional):</label>
+                <textarea id="new-note" name="new-note" rows="4"></textarea>
+                <button type="submit">Attach Note</button>
+            </form>
+        </div>
+    </div>
+    <script src="to.js"></script>
+</body>
+</html>
